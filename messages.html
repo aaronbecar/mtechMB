@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/mb.css">
+        <!-- Import jQuery -->
+        <!-- https://releases.jquery.com/jquery/ -->
+        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+        <script src="js/mb.js"></script>
+        <title>Message Board</title>
+    </head>
+    <body>
+        <!-- Main Container -->
+        <div id="main">
+            <!-- Sticky Header -->
+            <div id="stickyHeaderContainer">
+                <ul><li id="topPostDisplayName"></li></ul>
+                <ul><li id="topPostText"></li></ul>
+            </div>
+            <!-- Comments Section-->
+            <div id="commentsContainer">
+            </div>
+            <!-- End Comments -->
+            <!-- Sticky Footer -->
+            <div id="stickyFooterContainer">
+                <label for="displayNameTextBox">Display Name: </label><input type="text" id="displayNameTextBox" name="displayName"> <label for="newCommentTextBox">Comment: </label><input type="text" id="newCommentTextBox" name="newCommentText" size="40"> <input type="submit" id="addNewCommentButton" name="addNewComment" value="Post Comment">
+            </div>
+            <!-- End Footer -->
+        </div>
+        <!-- End Main -->
+    </body>
+</html>
